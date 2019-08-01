@@ -6,10 +6,9 @@ import tomodachi.__version__
 
 install_requires = [
     'pycparser>=2.18',
-    'aioamqp>=0.10.0, <0.13.0',
+    'aioamqp>=0.10.0',
     'ujson>=1.35',
     'uvloop>=0.8.1',
-    'aiobotocore>=0.6.0, <0.11.0',
     'tzlocal>=1.4',
     'aiohttp>=3.0.5, <3.6.0',
     'yarl>=1.1.0',
