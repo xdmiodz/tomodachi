@@ -9,11 +9,11 @@ install_requires = [
     'aioamqp>=0.13.0',
     'ujson>=1.35',
     'uvloop>=0.8.1',
-    'aiobotocore',
+    'aiobotocore>=0.6.0, <0.11.0',
     'tzlocal>=1.4',
-    'aiohttp',
+    'aiohttp>=3.0.5, <3.6.0',
     'yarl>=1.1.0',
-    'colorama'
+    'colorama>=0.3.9, <0.5.0'
 ]
 
 PY_VER = sys.version_info
